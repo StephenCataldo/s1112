@@ -1,4 +1,4 @@
-uuid: a148f0ae-adc3-4a04-bb3e-bbfcfb44c9ba
+uuid: 64b5f5d8-7a6a-41f5-a0c7-34d3996ac670
 langcode: en
 status: true
 dependencies:
@@ -14,14 +14,23 @@ targetEntityType: comment
 bundle: comment
 mode: default
 content:
+  author:
+    weight: -2
+    region: content
   comment_body:
     type: text_textarea
-    weight: 0
+    weight: 11
     region: content
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
-hidden:
-  author: true
-  subject: true
+  subject:
+    type: string_textfield
+    weight: 10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

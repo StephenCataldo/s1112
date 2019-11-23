@@ -1,4 +1,4 @@
-uuid: 0f1fe8f8-1e2c-47e5-9cf6-c66d309769e0
+uuid: 6c404ec8-5b06-44bb-b02e-8585b1a65f8f
 langcode: en
 status: true
 dependencies:
@@ -43,8 +43,6 @@ settings:
           items:
             - Source
   plugins:
-    language:
-      language_list: un
     stylescombo:
       styles: ''
 image_upload:
@@ -53,5 +51,5 @@ image_upload:
   directory: inline-images
   max_size: ''
   max_dimensions:
-    width: null
-    height: null
+    width: 0
+    height: 0

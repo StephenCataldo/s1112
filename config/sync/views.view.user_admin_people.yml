@@ -1,4 +1,4 @@
-uuid: 280f7c7e-7445-4f77-92ab-ef9a40018892
+uuid: c1732f52-fb99-4115-91db-b8e6e35fb5d0
 langcode: en
 status: true
 dependencies:
@@ -604,7 +604,6 @@ display:
               authenticated: authenticated
               anonymous: '0'
               administrator: '0'
-            placeholder: ''
           is_grouped: false
           group_info:
             label: ''
@@ -813,9 +812,6 @@ display:
             multiple: false
             remember_roles:
               authenticated: authenticated
-            placeholder: ''
-            min_placeholder: ''
-            max_placeholder: ''
           is_grouped: false
           group_info:
             label: ''
@@ -875,17 +871,6 @@ display:
         groups:
           1: AND
       display_extenders: {  }
-      header:
-        result:
-          id: result
-          table: views
-          field: result
-          relationship: none
-          group_type: group
-          admin_label: ''
-          empty: false
-          content: 'Displaying @start - @end of @total'
-          plugin_id: result
     cache_metadata:
       contexts:
         - 'languages:language_content'

@@ -1,4 +1,4 @@
-uuid: 10de52cb-d3e2-4fce-b5d9-4ff10b1ee93c
+uuid: dd30c788-7a7d-4620-a1aa-a79d5b61d1e7
 langcode: en
 status: true
 dependencies: {  }
@@ -7,7 +7,7 @@ _core:
 id: feedback
 label: 'Website feedback'
 recipients:
-  - feedback@spacebase.co
+  - stephencataldo@gmail.com
 reply: ''
 weight: 0
 message: 'Your message has been sent.'

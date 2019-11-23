@@ -1,4 +1,4 @@
-uuid: d330b63a-9447-4e7c-aeac-043d35fb079a
+uuid: 027ac9e7-0fcd-4d96-b7f6-a2897a6345d5
 langcode: en
 status: false
 dependencies:
@@ -360,7 +360,7 @@ display:
         - url.query_args
         - 'user.node_grants:view'
         - user.permissions
-      max-age: -1
+      max-age: 0
       tags: {  }
   attachment_1:
     id: attachment_1
@@ -428,7 +428,7 @@ display:
         - url.query_args
         - 'user.node_grants:view'
         - user.permissions
-      max-age: -1
+      max-age: 0
       tags: {  }
   page_1:
     id: page_1
@@ -455,5 +455,5 @@ display:
         - url.query_args
         - 'user.node_grants:view'
         - user.permissions
-      max-age: -1
+      max-age: 0
       tags: {  }

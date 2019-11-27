@@ -4057,17 +4057,17 @@
         },
         {
             "name": "drupal/ds",
-            "version": "3.4.0",
+            "version": "3.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/ds.git",
-                "reference": "8.x-3.4"
+                "reference": "8.x-3.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/ds-8.x-3.4.zip",
-                "reference": "8.x-3.4",
-                "shasum": "ebf070ba2f7cf78a62cf74678a9948546a93e773"
+                "url": "https://ftp.drupal.org/files/projects/ds-8.x-3.5.zip",
+                "reference": "8.x-3.5",
+                "shasum": "089c475534e64829d87fe3b34eca5f25654ea7bf"
             },
             "require": {
                 "drupal/core": "^8.6"
@@ -4082,8 +4082,8 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.4",
-                    "datestamp": "1567165687",
+                    "version": "8.x-3.5",
+                    "datestamp": "1574750285",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -7981,16 +7981,16 @@
         },
         {
             "name": "giggsey/libphonenumber-for-php",
-            "version": "8.10.23",
+            "version": "8.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/giggsey/libphonenumber-for-php.git",
-                "reference": "e5643cc3e10b3e071632b23c973ec5fe20137a56"
+                "reference": "356a97b1601edde8256dace68fe7ffeec0d777f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/e5643cc3e10b3e071632b23c973ec5fe20137a56",
-                "reference": "e5643cc3e10b3e071632b23c973ec5fe20137a56",
+                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/356a97b1601edde8256dace68fe7ffeec0d777f9",
+                "reference": "356a97b1601edde8256dace68fe7ffeec0d777f9",
                 "shasum": ""
             },
             "require": {
@@ -8045,7 +8045,7 @@
                 "phonenumber",
                 "validation"
             ],
-            "time": "2019-11-13T09:59:46+00:00"
+            "time": "2019-11-26T16:09:47+00:00"
         },
         {
             "name": "giggsey/locale",
